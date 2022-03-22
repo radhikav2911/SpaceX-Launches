@@ -1,0 +1,11 @@
+.loader {
+  &__container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 3rem;
+    }
+  }
+}

@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #dad9d9ea;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  margin-top: 40px;
+  padding-top: 60px;
+}
+.container-title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.team-container {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  color: #097e8dfa;
+  font-size: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.row {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .row {
+    width: 100%;
+  }
+}
+
+.profile-card {
+  background-color: #ffffff;
+  width: 270px;
+  height: auto;
+  min-height: 250px;
+  margin: 20px 10px 10px 10px;
+}
+
+@media (max-width: 468px) {
+  .profile-card {
+    width: 290px;
+    height: 250px;
+  }
+}
+
+.profile-content {
+  padding: 15px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.profile-image {
+  text-align: center;
+}
+.desc {
+  text-align: center;
+}
+.desc h2 {
+  color: rgb(12, 172, 150);
+  font-size: 20px;
+}
+.desc p {
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-top: 8px;
+  color: #000000;
+}
+.btn-div {
+  text-align: center;
+}
+.btn {
+  color: #ffffff;
+  width: 150px;
+  cursor: pointer;
+  height: 38px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 3px 3px 3px 3px #e6e6e6;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+
+.link_button {
+  background-color: #262627;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(65, 63, 63, 0.4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 5px;
+  outline: none;
+  padding: 8px 0.8em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.link_button:hover,
+.link_button:focus {
+  background-color: rgb(95, 93, 95);
+}
+
+.link_button:focus {
+  box-shadow: 0 0 0 4px rgba(111, 112, 112, 0.15);
+}
+
+.link_button:active {
+  background-color: #404142;
+  box-shadow: none;
+}
+.team_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
